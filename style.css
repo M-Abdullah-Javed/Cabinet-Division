@@ -1,0 +1,1967 @@
+.top-bar{
+    background: #f1f1f1;
+    color: black;
+    font-size:14px;
+    text-shadow: none;
+    height: 28px;
+}
+
+
+.btn-primary{
+    background-color:#07549B;
+    
+}
+
+.latest-news{
+    background:#f5f5f5;
+    padding:0px 0;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+}
+
+
+.news-title{
+    background: #e6e6e6;
+    color:#444444;
+    padding:0px;
+    text-align:center;
+    font-weight:bold;
+  
+}
+
+
+.news-bulletin{
+    background:white;
+    padding:0px;
+    color:#333;
+    border-left:3px solid #0b4f8a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================= ACCESSIBILITY WIDGET ================= */
+
+.access-toggle-btn{
+    position: fixed;
+    right: 20px;
+    top: 45%;
+    width: 50px;
+    height: 50px;
+    background: #cf9e6b;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 9998;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.access-panel{
+    position: fixed;
+    right: 80px;
+    top: 30%;
+    width: 260px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.25);
+    padding: 20px;
+    z-index: 9999;
+
+    display: none;   /* hidden by default */
+}
+
+.access-panel.show{
+    display: block;
+}
+
+.access-panel h5{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.access-option{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: left;
+    padding: 10px 5px;
+    font-size: 15px;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.access-option:hover{
+    background: #f0f0f0;
+}
+
+.access-option i{
+    font-size: 18px;
+    width: 22px;
+}
+/* ============ ACCESSIBILITY EFFECT CLASSES ============ */
+
+/* High Contrast */
+body.high-contrast{
+    background: #000 !important;
+    color: #fff !important;
+}
+body.high-contrast *{
+    background-color: #000 !important;
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+/* Negative Contrast */
+
+body.negative-contrast #siteContent{
+    filter: invert(100%);
+}
+/* Light Background */
+body.light-bg *{
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+/* Underline Links */
+body.underline-links a{
+    text-decoration: underline !important;
+}
+
+/* GrayScale */
+body.grayscale #siteContent{
+    filter: grayscale(100%);
+}
+
+/* Accessibility widget khud in effects se mutasir na ho */
+
+body.high-contrast .accessibility-widget,
+body.light-bg .accessibility-widget{
+    filter: none !important;
+}
+
+body.high-contrast .access-toggle-btn,
+body.light-bg .access-toggle-btn{
+    background:#cf9e6b !important;
+    color:#fff !important;
+}
+
+body.high-contrast .access-panel,
+body.high-contrast .access-panel *,
+body.light-bg .access-panel,
+body.light-bg .access-panel *{
+    background:#fff !important;
+    color:#333 !important;
+    border-color:#ddd !important;
+}
+
+body.negative-contrast .accessibility-widget,
+body.grayscale .accessibility-widget{
+    filter: none !important;
+}
+
+/* Readable Font */
+body.readable-font, 
+body.readable-font *{
+    font-family: Arial, Helvetica, sans-serif !important;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+
+header{
+    border-bottom:1px solid #ddd;
+    background-color: whitesmoke;
+    background-image: url('26\ -\ Copy.png');
+    background-repeat: no-repeat;
+    background-position:center  ;
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
+header{
+
+    border-bottom:1px solid #ddd;
+  background-color: whitesmoke;
+  
+}
+header h2{
+
+    font-size: 15px;
+
+
+}
+
+header p{
+
+    color:#555;
+    margin-left:90px;
+
+}
+header hr{
+
+    height: 01px;
+    background-color: black;
+    border: 0;
+    opacity: 1;
+    margin: 5px 0;
+
+}
+.bg-white{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 80px;
+}
+
+
+
+.navbar-toggler{
+    border-color:white;
+}
+
+.navbar-toggler-icon{
+    filter: invert(1);
+}
+
+
+
+
+.main-content-section{
+    background-color:#FFFF;
+    padding:0px 0;
+    margin-top: -20px;
+}
+
+
+.next-section{
+    background: #f7f7f7;;
+    padding:60px 0;
+}
+
+
+
+
+
+.cabinet-navbar{
+
+    background-color:#07549b !important;
+    min-height:50px;
+
+    background-color: #0056a3;
+    padding: 0;
+    position: sticky;
+    top:80px;
+    z-index:5000;
+    height: 10px;
+}
+
+
+
+
+.cabinet-navbar .nav-link{
+
+    color:white;
+    font-size:14px;
+    font-weight:500;
+    padding:15px 12px;
+    white-space:nowrap;
+
+}
+
+
+.cabinet-navbar .nav-link:hover{
+
+    background-color:#06427a;
+
+}.carousel-item img{
+
+    width:100%;
+    height:500px;
+    object-fit:cover;
+
+}
+.cabinet-navbar .navbar-nav{
+    gap: 10px;
+}
+
+/* Slider */
+#mainSlider{
+    position: relative;
+}
+
+/* Previous & Next Buttons */
+.carousel-control-prev,
+.carousel-control-next{
+    width: 55px;
+    opacity: 1;
+}
+
+/* Left Button */
+.carousel-control-prev{
+    left: 0;
+}
+
+/* Right Button */
+.carousel-control-next{
+    right: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(120,120,110,0.55);
+    border-radius: 8px;
+    background-size: 20px 20px;
+    padding: 0;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon{
+    background-color: rgba(120,120,110,0.8);
+}
+/* Cards Main Style */
+
+.custom-card{
+    border:none;
+    border-radius:10px;
+    color:white;
+    width: 100%;
+    height:113px;        /* min-height ki jagah height - fixed hi rahega sab cards ka */
+    overflow:hidden;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+
+.custom-card:hover{
+
+    transform:translateY(-5px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.25);
+
+}
+
+
+
+/* Card Body */
+
+.custom-card .card-body{
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+
+}
+
+
+
+/* Icons */
+
+.custom-card i{
+    font-size:26px;      /* pehle 35px tha */
+    margin-bottom:8px;   /* pehle 15px tha */
+}
+
+
+
+/* Text */
+
+.custom-card .card-title{
+    font-size:13px;      /* pehle 15px tha */
+    font-weight:600;
+    line-height:1.3;
+    margin:0;
+}
+
+
+
+/* Colors */
+
+.card-mint{
+    background:#0DEEB0;
+}
+
+
+.card-pink{
+    background:#eb0dea;
+}
+
+
+.card-blue{
+    background:#162fe3;
+}
+
+
+.card-orange{
+    background:#e6884d;
+}
+
+
+.card-skyblue{
+    
+    background-color: #388ce3;
+}
+
+
+.card-purple{
+    background:#6f42c1;
+}
+
+
+.card-teal{
+    background:#3CD6D6;
+
+}
+
+
+.card-violet{
+    background:#943ebc;
+}
+
+
+.card-red{
+    background:#ff5f00;
+}
+
+
+/* Cards ke darmiyan gap */
+
+.row > .col-md-4{
+
+
+    margin-top: 10px;
+    margin-bottom:0px;
+
+}
+
+
+
+
+
+
+
+.profile-box{
+    background:white;
+    border-radius:10px;
+    padding:opx;
+    width: 419px;
+    height: 70px;
+}
+
+
+
+
+
+
+.profile-content{
+    display:flex;
+    align-items:center;
+}
+
+
+.profile-image img{
+    width:80px;
+    height:100px;
+    border-radius:100%;
+    object-fit:cover;
+}
+
+
+.profile-text{
+    margin-left:15px;
+}
+
+
+.profile-text h6{
+
+    margin:0;
+}
+
+
+.profile-text p{
+    margin:5px 0;
+    color: #104551;
+}
+
+
+.profile-text button{
+    padding:5px 12px;
+}
+
+
+
+
+.gallery-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+}
+
+.gallery-item{
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-item img{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-overlay{
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: rgba(0,0,0,0.5) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 6px !important;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.gallery-item:hover .gallery-overlay{
+    opacity: 1;
+}
+
+.gallery-icon{
+    width: 26px !important;
+    height: 26px !important;
+    min-width: 26px !important;
+    max-width: 26px !important;
+    background: #fff !important;
+    color: #104591 !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-decoration: none !important;
+    flex-shrink: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.gallery-icon i{
+    font-size: 12px !important;
+    line-height: 1 !important;
+}
+
+.gallery-icon:hover{
+    background: #104591 !important;
+    color: #fff !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+.next-section{
+    padding:40px 0;
+    background:#f5f5f5;
+}
+
+/* Same style for all cards */
+.section-box{
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius:8px;
+    overflow:hidden;
+    min-height:450px;   /* Height bari */
+}
+
+/* Header */
+.section-header{
+    color:#fff;
+    font-size:20px;
+    font-weight:600;
+    padding:12px 20px;
+}
+
+/* Body */
+.section-body{
+    padding:20px;
+    min-height:390px;
+}
+
+/* Header Colors */
+.header-orange{
+    background:#E8A91C;
+}
+
+.header-red{
+    background:#e74c3c;
+}
+
+.header-blue{
+    background:#0d6efd;
+}
+
+/* Agar kisi card ki alag height chahiye */
+#card1{
+    min-height:390px;
+}
+
+#card2{
+    min-height:500px;
+}
+
+#card3{
+    min-height:500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sirf Card 1 ke Top Story header ko style karne ke liye — scoped, taake baqi cards affect na hon */
+
+#card1 .section-title-row {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;   /* gray background jo image mein dikh raha tha */
+    padding: 10px 12px;
+    gap: 8px;
+}
+
+#card1 .title-badge {
+    background-color: #f5a623;
+    color: #ffffff;
+    padding: 16px 16px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 2px;
+    white-space: nowrap;
+}
+
+#card1 .title-line {
+    flex: 1;
+    height: 24px;
+    background-image: repeating-linear-gradient(
+        to right,
+        #999 0px,
+        #999 2px,
+        transparent 2px,
+        transparent 6px
+    );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sirf Card 1 ke Top Story header ko style karne ke liye — scoped, taake baqi cards affect na hon */
+
+#card2 .section-title-row {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;   /* gray background jo image mein dikh raha tha */
+    padding: 10px 12px;
+    gap: 8px;
+}
+
+#card2 .title-badge {
+    background-color: #d9534f;
+    color: #ffffff;
+    padding: 16px 16px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 2px;
+    white-space: nowrap;
+}
+
+#card2 .title-line {
+    flex: 1;
+    height: 24px;
+    background-image: repeating-linear-gradient(
+        to right,
+        #999 0px,
+        #999 2px,
+        transparent 2px,
+        transparent 6px
+    );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-title-row{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.section-title{
+    margin: 0;
+    background-color: #06427a;
+}
+
+.title-badge{
+    background:  #E8A91C;
+    color: #fff;
+    padding: 11px 18px;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: 0.5px;
+}
+.section-title span{
+    
+    height: 10%;
+}
+
+.title-line{
+    flex: 1;
+    height: 3px;
+    
+    border-radius: 10px;
+}
+.section-title-row{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.title-badge{
+    background:#E8A91C;
+    color:white;
+    padding:11px 15px;
+    font-weight:bold;
+}
+
+
+
+.section-box{
+    background:#fff;
+    
+    box-shadow:0 1px 3px rgba(0,0,0,0.1);
+    overflow:hidden;
+}
+
+.story-card{
+    display:flex;
+    flex-direction:column;
+}
+
+.story-image{
+    width:100%;
+    height:220px;
+    overflow:hidden;
+}
+
+.story-image img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    display:block;
+}
+
+.story-content{
+    padding:20px;
+}
+
+.story-title{
+    font-size:20px;
+    font-weight:700;
+    color:#1a1a1a;
+    margin-bottom:12px;
+}
+
+.story-desc{
+    font-size:15px;
+    color:#555;
+    line-height:1.5;
+    margin-bottom:20px;
+}
+
+.story-btn{
+    display:inline-block;
+    background:#E8A91c;
+    color:#fff;
+    font-weight:600;
+    font-size:15px;
+    padding:6px 25px;
+    border-radius:2px;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.story-btn:hover{
+    background:#E8A91C;
+    color:#fff;
+}
+
+
+.section-body{
+    padding: 15px;
+}
+
+
+
+
+
+
+.badge-red{
+    background:#d9534f;
+}
+
+.notification-list{
+    padding:15px;
+}
+
+.notification-item{
+    display:flex;
+    gap:12px;
+    padding:18px 0;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.notification-item:last-child{
+    border-bottom:none;
+}
+
+.notification-img{
+    width:100px;
+    height:100px;
+    flex-shrink:0;
+}
+
+.notification-img img{
+    width:100px;
+    height:100px;
+    object-fit:contain;
+}
+.notification-content{
+    flex:1;
+    min-width:0;
+}
+
+.notification-title{
+    margin:0;
+    font-size:15px;
+    line-height:1.5;
+    color:#333;
+    background-color: #f7f7f7;
+    text-decoration: none !important;
+}
+
+.notification-date{
+    font-size:13px;
+    color:#c0392b;
+    margin-bottom:5px;
+    font-style: italic;
+}
+
+.notification-date i{
+    margin-right:5px;
+    color:#d9534f;
+}
+
+
+
+
+
+.notification-list{
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+
+
+
+
+
+
+
+
+
+/* Facebook Card */
+#card3{
+    height: 500px;
+    overflow: hidden;
+}
+
+
+/* Blue Heading */
+
+
+
+
+.header-blue{
+    background:#3b3b9f;
+    color:white;
+    padding:10px 18px;
+    font-size:18px;
+    font-weight:bold;
+    display:inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Facebook Area */
+.fb-widget{
+    height:calc(100% - 48px);
+    overflow-y:auto;
+    background:#f5f5f5;
+    padding:10px;
+}
+
+
+/* Profile */
+.fb-profile-box{
+    background:white;
+    padding:10px;
+    position:relative;
+}
+
+
+/* Profile Image */
+.fb-avatar{
+    width:65px;
+    height:65px;
+    border-radius:50%;
+    overflow:hidden;
+    border:2px solid #1877f2;
+    margin-bottom:5px;
+}
+
+.fb-avatar img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+
+/* Name */
+.fb-page-name{
+    font-size:24px;
+    color:#365899;
+    margin-bottom:2px;
+}
+
+
+/* Verified */
+.fb-verified{
+    color:#1877f2;
+    font-size:18px;
+}
+
+
+/* Followers */
+.fb-followers{
+    font-size:14px;
+    color:#555;
+    margin-bottom:8px;
+}
+
+
+/* Follow Button */
+.fb-follow-btn{
+    background:#f5f5f5;
+    border:1px solid #ccc;
+    padding:6px 10px;
+    font-weight:bold;
+    color:#444;
+    border-radius:3px;
+}
+
+.fb-follow-btn i{
+    color:#1877f2;
+}
+
+
+/* Post */
+.fb-post-box{
+    background:white;
+    margin-top:10px;
+}
+
+.fb-post-box img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+
+
+
+
+
+
+
+
+/* ================= DASHBOARD ================= */
+
+.dashboard-section{
+    padding:30px 0;
+    background:#fff;
+}
+
+
+/* ================= GALLERY ================= */
+.gallery-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+}
+
+.gallery-box a {
+    display: block;
+    width: 100%;
+}
+
+.gallery-box img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.citizen-banner{
+    width:100%;
+    height:260px;
+    overflow:hidden;
+}
+
+.citizen-banner img{
+    width:100%;
+    height:74%;
+    object-fit:cover;
+    display:block;
+}
+
+/* ================= STATISTICS ================= */
+
+.stats-box{
+    height:260px;
+    border:1px solid #ddd;
+    background:#fff;
+}
+
+.stat-item{
+    height:20%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 18px;
+    border-bottom:1px solid #eee;
+}
+
+.stat-item:last-child{
+    border-bottom:none;
+}
+
+.stat-label{
+    font-size:15px;
+    color:#555;
+}
+
+.stat-value{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.stat-blue{
+    color:#009999;
+}
+
+.stat-green{
+    color:#3cE194;
+}
+
+.stat-teal{
+    color:#3CD6D6;
+}
+
+.stat-dark{
+    color:#707070;
+}
+
+
+/* ================= INFO BOX ================= */
+
+.info-box{
+    border:1px solid #ddd;
+    background:#fff;
+    min-height:330px;
+}
+
+
+/* Header */
+
+.info-header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    border-bottom:1px solid #ddd;
+    padding:12px 15px;
+}
+
+.info-header h5{
+    margin:0;
+    font-size:18px;
+    font-weight:bold;
+}
+
+
+/* View All */
+
+.view-all-btn{
+    text-decoration:none;
+    color:#fff;
+    padding:5px 10px;
+    font-size:11px;
+    font-weight:bold;
+}
+
+.view-all-blue{
+    background:#104591;
+}
+
+.view-all-orange{
+    background:#f28c28;
+}
+
+.view-all-red{
+    background:#d9534f;
+}
+
+
+/* ================= DOWNLOADS ================= */
+.download-list{
+    padding:0px 15px;
+    max-height: 250px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+.download-list::-webkit-scrollbar{
+    width:5px;
+}
+
+.download-list::-webkit-scrollbar-thumb{
+    background:#ccc;
+    border-radius:10px;
+}
+
+.download-item{
+    padding:12px 0;
+    border-bottom:1px solid #eee;
+    text-align: left;
+}
+
+.download-item:last-child{
+    border-bottom:none;
+    text-align: left;
+}
+
+.download-item p{
+    margin:0 0 8px;
+    font-size:14px;
+    line-height:1.5;
+    color:#444;
+    text-align: left;
+}
+
+.download-btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#104591;
+    color:#fff;
+    padding:5px 10px;
+    font-size:11px;
+    font-weight:bold;
+    text-align: left;
+}
+
+
+/* ================= EMPTY STATE ================= */
+
+.empty-state{
+    min-height:270px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:20px;
+}
+
+.empty-icon{
+    font-size:110px;
+    color:#c30;
+    margin-bottom:10px;
+}
+
+.empty-state h4{
+    margin:0 0 8px;
+    font-size:20px;
+}
+
+.empty-state p{
+    margin:0;
+    color:#777;
+    font-size:14px;
+}
+
+
+
+
+/* ================= FOOTER ================= */
+
+.site-footer{
+    background:#444444;
+    color:#fff;
+    padding-top:45px;
+    margin-top:40px;
+}
+
+
+/* Footer Heading */
+
+.footer-heading{
+    margin:0;
+    font-size:20px;
+    font-weight:600;
+    color:#fff;
+}
+
+
+/* Small line under heading */
+
+.footer-line{
+    width:45px;
+    height:3px;
+    background:#fff;
+    margin:10px 0 20px;
+}
+
+
+/* ================= MAP ================= */
+
+.footer-map{
+    width:100%;
+    overflow:hidden;
+    border:1px solid rgba(255,255,255,0.3);
+}
+
+.footer-map iframe{
+    display:block;
+    width:100%;
+}
+
+
+/* ================= QUICK LINKS ================= */
+
+.footer-links{
+    list-style:none;
+    padding:0;
+    margin:0;
+    max-height:250px;
+    overflow-y:auto;
+}
+
+.footer-links li{
+    margin-bottom:9px;
+}
+
+.footer-links a{
+    color:#fff;
+    text-decoration:none;
+    font-size:14px;
+    line-height:1.5;
+}
+
+.footer-links a:hover{
+    color:#fff;
+}
+
+.footer-links i{
+    font-size:11px;
+    margin-right:6px;
+}
+
+
+/* Scrollbar */
+
+.footer-links::-webkit-scrollbar{
+    width:5px;
+}
+
+.footer-links::-webkit-scrollbar-thumb{
+    background:#ccc;
+    border-radius:10px;
+}
+
+
+/* ================= FORM ================= */
+
+.footer-form{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.footer-input{
+    width:100%;
+    border:none;
+    border-radius:2px;
+    padding:10px 12px;
+    font-size:14px;
+    outline:none;
+}
+
+.footer-input:focus{
+    box-shadow:0 0 0 2px rgba(245,130,32,0.5);
+}
+
+
+/* Submit */
+
+.footer-submit-btn{
+    align-self:flex-start;
+    background: #fff;;
+    color:#444;
+    border:none;
+    padding:9px 22px;
+    font-size:13px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.footer-submit-btn:hover{
+    background:#e56f0c;
+}
+
+
+/* ================= FOOTER BOTTOM ================= */
+
+.footer-bottom{
+    margin-top:40px;
+    padding:15px 0;
+    background:#444444;
+    border-top:1px solid rgba(255,255,255,0.2);
+}
+
+.footer-bottom p{
+    margin:0;
+    text-align: left;
+    font-size:13px;
+    color:#ddd;
+}
+
+
+/* ================= BACK TO TOP ================= */
+
+.back-to-top{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+
+    width:40px;
+    height:40px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background:#444;
+    color:#fff;
+
+    text-decoration:none;
+    border-radius:3px;
+
+    z-index:999;
+}
+
+.back-to-top:hover{
+    background:#444;
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:991px){
+
+    .cabinet-navbar{
+        background-color:white !important;
+        min-height:50px;
+    }
+
+
+    .navbar-toggler{
+        margin-left:auto;
+        border:0;
+    }
+
+
+    .navbar-toggler-icon{
+        filter:none;
+    }
+
+
+    .cabinet-navbar .nav-link{
+        color:#333;
+    }
+
+}
+
+/* =========================================================
+   RESPONSIVE ADD-ON CSS
+   Ye poori file apni style.css ke SABSE AAKHIR (end) mein
+   paste kar dein. Isse upar ka koi bhi purana rule change
+   nahi hoga — ye sirf tablet/mobile ke liye overrides hain.
+   ========================================================= */
+
+
+/* ================= TABLET (max-width: 991px) ================= */
+@media (max-width: 991.98px){
+
+    /* Top bar thoda compact */
+    .top-bar{
+        font-size:12px;
+    }
+
+    /* Header ko stack karna taake logo/search tootay nahi */
+    header .row{
+        text-align:center;
+    }
+
+    header .col-lg-6.col-md-6:first-child{
+        text-align:center;
+        margin-bottom:10px;
+    }
+
+    header .ms-3.d-inline-block{
+        margin-left:10px !important;
+    }
+
+    header h2{
+        font-size:16px;
+    }
+
+    header .input-group{
+        margin:0 auto;
+    }
+
+    .bg-white{
+        height:auto;
+        padding:10px 0;
+    }
+
+    .cabinet-navbar{
+        top:0;
+        height:auto;
+    }
+
+    /* Slider image thodi choti */
+    .carousel-item img{
+        height:320px;
+    }
+
+    /* Profile box fixed width hata dena */
+    .profile-box{
+        width:100%;
+        height:auto;
+        padding:10px;
+    }
+
+    .profile-content{
+        flex-wrap:wrap;
+    }
+
+    /* Section boxes ki min-height kam karna */
+    .section-box,
+    #card1,
+    #card2,
+    #card3{
+        min-height:auto;
+    }
+
+    .story-image img{
+        height:230px;
+    }
+
+    .citizen-banner{
+        height:200px;
+    }
+
+    .stats-box{
+        height:auto;
+    }
+
+    .stat-item{
+        height:auto;
+        padding:12px 15px;
+    }
+}
+
+
+/* ================= MOBILE / SMALL TABLET (max-width: 767px) ================= */
+@media (max-width: 767.98px){
+
+    /* Top bar stack */
+    .top-bar .d-flex{
+        flex-direction:column;
+        gap:5px;
+        text-align:center;
+    }
+
+    /* Header */
+    header .ms-3.d-inline-block{
+        display:block !important;
+        margin-left:0 !important;
+        margin-top:8px;
+    }
+
+    header img[alt="Logo"]{
+        display:block;
+        margin:0 auto;
+    }
+
+    header h2{
+        font-size:15px;
+    }
+
+    header p{
+        margin-left:0;
+        text-align:center;
+    }
+
+    /* Navbar links center */
+    .cabinet-navbar .navbar-nav{
+        text-align:center;
+        gap:0;
+    }
+
+    .cabinet-navbar .nav-link{
+        padding:10px 12px;
+    }
+
+    /* Latest news stack */
+    .latest-news .row{
+        text-align:center;
+    }
+
+    .news-title{
+        margin-bottom:5px;
+    }
+
+    /* Slider */
+    .carousel-item img{
+        height:220px;
+    }
+
+    /* Right side cards -> 2 per row instead of 3 */
+    .col-4.mb-3{
+        flex:0 0 50%;
+        max-width:50%;
+    }
+
+    .custom-card{
+        height:90px;
+    }
+
+    .custom-card i{
+        font-size:20px;
+        margin-bottom:5px;
+    }
+
+    .custom-card .card-title{
+        font-size:11px;
+    }
+
+    /* Story card */
+    .story-image img{
+        height:200px;
+    }
+
+    .story-title{
+        font-size:17px;
+    }
+
+    /* Notifications */
+    .notification-img{
+        width:60px;
+        height:60px;
+    }
+
+    .notification-img img{
+        width:60px;
+        height:60px;
+    }
+
+    .notification-title{
+        font-size:13px;
+    }
+
+    /* Facebook card */
+    .fb-page-name{
+        font-size:18px;
+    }
+
+    /* Gallery */
+    .gallery-item img{
+        height:80px;
+    }
+
+    /* Citizen banner + stats */
+    .citizen-banner{
+        height:160px;
+        margin-bottom:15px;
+    }
+
+    /* Downloads / Tenders / Jobs */
+    .info-header h5{
+        font-size:15px;
+    }
+
+    .download-item p{
+        font-size:13px;
+    }
+
+    /* Footer */
+    .footer-heading{
+        text-align:center;
+    }
+
+    .footer-line{
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .footer-links{
+        text-align:center;
+    }
+
+    .footer-form{
+        align-items:center;
+    }
+
+    .footer-submit-btn{
+        align-self:center;
+    }
+
+    .footer-bottom p{
+        text-align:center;
+    }
+
+    /* Accessibility widget mobile friendly */
+    .access-toggle-btn{
+        width:42px;
+        height:42px;
+        font-size:20px;
+        right:10px;
+    }
+
+    .access-panel{
+        right:10px;
+        width:220px;
+        top:20%;
+    }
+
+    .back-to-top{
+        right:10px;
+        bottom:10px;
+    }
+}
+
+
+/* ================= SMALL MOBILE (max-width: 575px) ================= */
+@media (max-width: 575.98px){
+
+    .carousel-item img{
+        height:180px;
+    }
+
+    /* Cards ab 1 per row */
+    .col-4.mb-3{
+        flex:0 0 100%;
+        max-width:100%;
+    }
+
+    .custom-card{
+        height:70px;
+    }
+
+    .custom-card .card-body{
+        flex-direction:row;
+        justify-content:center;
+        gap:10px;
+    }
+
+    .custom-card i{
+        margin-bottom:0;
+    }
+
+    .story-image img{
+        height:180px;
+    }
+
+    .story-content{
+        padding:15px;
+    }
+
+    .notification-item{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .notification-img{
+        margin:0 auto;
+    }
+
+    .gallery-box{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .gallery-item img{
+        height:70px;
+    }
+
+    .fb-avatar{
+        margin:0 auto 8px;
+    }
+
+    .fb-profile-box{
+        text-align:center;
+    }
+
+    .footer-map iframe{
+        height:200px;
+    }
+}
+/* =========================================================
+   RESPONSIVE ADD-ON CSS (MINIMAL VERSION)
+   Ye poori file apni style.css ke SABSE AAKHIR (end) mein
+   paste kar dein.
+
+   Is version mein koi bhi text-align, layout arrangement,
+   flex-direction ya card structure change NAHI ki gayi.
+   Sirf woh fixed-pixel widths/heights adjust ki gayi hain
+   jo mobile/tablet par horizontal scroll ya overflow ka
+   sabab ban rahi thi. Baqi sab Bootstrap ka apna grid
+   system (col-lg/col-md) khud hi handle kar raha hai —
+   isliye look bilkul same rahega, bas screen ke andar
+   properly fit ho jayega.
+   ========================================================= */
+
+
+/* Safety net: kisi bhi jaga se horizontal scroll na aaye */
+html, body{
+    overflow-x:hidden;
+}
+
+
+/* Profile box ki fixed width (419px) mobile/tablet par
+   overflow create kar rahi thi — isko container ke hisab
+   se flexible bana diya, baqi sab (padding, layout) same */
+@media (max-width: 767.98px){
+
+    .profile-box{
+        width:100%;
+    }
+
+}
+
+
+/* Access widget agar bohat chhoti screen (320px jaisi)
+   par panel screen se bahar na chala jaye */
+@media (max-width: 360px){
+
+    .access-panel{
+        right:10px;
+    }
+
+}
+/* =========================================================
+   RESPONSIVE ADD-ON CSS (SCOPED VERSION)
+   Ye poori file apni style.css ke SABSE AAKHIR (end) mein
+   paste kar dein — is se PEHLE wali dono files ki jagah
+   isay use karein (poori file replace karein).
+
+   IMPORTANT: Is baar HAR fix @media query ke andar hai,
+   isliye LAPTOP/DESKTOP (screen se bari, >991px) par
+   kuch bhi change nahi hoga — wo bilkul pehle jaisa hi
+   dikhega. Sirf tablet aur mobile ke liye fixes apply
+   hongi.
+
+   HTML mein koi tabdeeli nahi ki gayi.
+   ========================================================= */
+
+
+/* ================= TABLET + MOBILE (max-width: 991px) ================= */
+@media (max-width: 991.98px){
+
+    /* Sirf isi range mein horizontal scroll rokna hai */
+    html, body{
+        overflow-x:hidden;
+    }
+
+    /* -----------------------------------------------------------
+       ASAL MASLA (sirf chhoti screens par):
+       Profile box wala column (col-md-4) pehle se ek aur
+       col-md-4 (Right Side Cards) ke andar "nested" hai,
+       is wajah se usay apne parent ka sirf 33% milta hai
+       jo khud already screen ka 33% hai — is se woh bohat
+       tang jagah mein sikud jata hai aur clip ho jata hai.
+
+       Fix: is nested column ko force karo ke woh apni row
+       ki poori width le — SIRF tablet/mobile ke liye.
+       ----------------------------------------------------------- */
+
+    .col-md-4 > .row > .col-md-4{
+        width:100%;
+        max-width:100%;
+        flex:0 0 100%;
+    }
+
+    .profile-box{
+        width:100%;
+        height:auto;
+    }
+
+    .profile-content{
+        flex-wrap:wrap;
+    }
+
+}
+
+
+/* ================= SIRF BOHAT CHHOTI MOBILE (max-width: 360px) ================= */
+@media (max-width: 360px){
+
+    /* Access widget panel screen se bahar na chala jaye */
+    .access-panel{
+        right:10px;
+    }
+
+}
